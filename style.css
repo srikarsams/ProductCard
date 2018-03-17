@@ -266,7 +266,12 @@ body
 	margin-left: 5px;
 }
 
-
+@media only screen and (max-width: 600px) {
+	.container{
+			display: block;
+			margin: 20 auto;
+	}
+}
 
 
 
